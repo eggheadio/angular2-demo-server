@@ -1,1 +1,4 @@
-# angular2-demo-server
+# People Server
+
+- `npm install`
+- `npm start`
