@@ -19,7 +19,9 @@ module.exports = function(){
                     state: faker.address.state(),
                     zipCode: faker.address.zipCode(),
                 },
-                phone: faker.phone.phoneNumber()
+                phone: faker.phone.phoneNumber(),
+                bs: faker.company.bs(),
+                lorem: faker.lorem.paragraph()
             }
         })
     }
